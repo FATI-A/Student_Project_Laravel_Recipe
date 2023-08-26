@@ -34,5 +34,5 @@ jobs:
       - name: Store artifact for distribution
         uses: actions/upload-artifact@v2
         with:
-        name: app-build
-        path: ${{ github.sha }}.tar.gz
+          name: app-build
+          path: ${{ github.sha }}.tar.gz
